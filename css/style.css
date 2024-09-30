@@ -7,11 +7,21 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #393434; /* Cor de fundo do site */
-    color: #fff; /* Cor do texto */
+    background-color: rgb(230, 230, 230); /* Cor de fundo do site */
+    color: black; /* Cor do texto */
     line-height: 1.6; /* Espaçamento entre linhas de texto */
     width: 100%;
     height: 100%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 10px auto 10px auto;
+    color: rgb(255, 255, 0); /* Cor do texto */
+    text-shadow: 2px 2px black;
 }
 
 header {
@@ -21,14 +31,14 @@ header {
     width: 100%;
     height: 70px;
     padding: 10px;
-    background-color: #333; /* Cor de fundo do cabeçalho */
-    box-shadow: 0px 5px 20px black; /* Sombra para destacar o cabeçalho */
+    background-color: rgb(252, 94, 94); /* Cor de fundo do cabeçalho */
+    box-shadow: 0px 5px 20px rgb(255, 73, 73); /* Sombra para destacar o cabeçalho */
 }
 
 .logo {
     width: 45px;
     height: 45px;
-    background-color: #ccc;
+    /* background-color: rgb(230, 230, 230); */
     border-radius: 10px; /* Bordas arredondadas para o logo */
 }
 
@@ -38,7 +48,7 @@ header {
 }
 
 .menu li a {
-    color: #fff; /* Cor do texto dos links */
+    color: black; /* Cor do texto dos links */
     text-decoration: none; /* Remove sublinhado dos links */
     padding: 10px 20px;
     border-radius: 20px;
@@ -46,7 +56,7 @@ header {
 }
 
 .menu li a:hover {
-    background-color: #6a6969; /* Cor de fundo ao passar o mouse */
+    background-color: rgb(255, 255, 0); /* Cor de fundo ao passar o mouse */
 }
 
 .container {
@@ -61,13 +71,13 @@ header {
         "footer footer footer"; /* Define as áreas nomeadas para cada elemento */
     gap: 20px; /* Espaçamento entre as áreas do grid */
     padding: 20px;
-    border: 1px solid #fff; /* Bordas para destacar o contêiner */
+    border: 1px solid #000000; /* Bordas para destacar o contêiner */
 }
 
 .sidenav {
     grid-area: sidenav; /* Define a área do grid que a barra lateral ocupará */
-    background-color: #1E3A8A; /* Fundo azul escuro */
-    color: #F0F4FF; /* Cor do texto em azul claro */
+    background-color: rgb(252, 94, 94); /* Fundo azul escuro */
+    color: black; /* Cor do texto em azul claro */
     border-radius: 20px; /* Bordas arredondadas */
     padding: 20px;
 }
@@ -78,7 +88,7 @@ header {
 .item:nth-child(5) { grid-area: item4; }
 
 .item {
-    background-color: #ccc;
+    background-color: rgb(255, 255, 0);
     border-radius: 20px; /* Arredonda os cantos do item */
     display: flex; /* Organiza o conteúdo do item como um flex container */
     flex-direction: column;
@@ -98,7 +108,7 @@ header {
 
 .footer {
     grid-area: footer;
-    background-color: #6a6969;
+    background-color: rgb(252, 94, 94);
     border-radius: 20px;
     text-align: center;
     padding: 30px; /* Aumenta o tamanho do rodapé */
