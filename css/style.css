@@ -29,7 +29,7 @@ header {
     width: 45px;
     height: 45px;
     background-color: #ccc;
-    border-radius: 10px; /* Bordas arredondadas para o logo */ 
+    border-radius: 10px; /* Bordas arredondadas para o logo */
 }
 
 .menu {
@@ -85,7 +85,6 @@ header {
     align-items: center;
     justify-content: center;
 }
-
 
 .footer {
     grid-area: footer;
